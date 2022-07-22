@@ -30,5 +30,5 @@ Estes Pull Requests (PRs) deverão ser criados a partir da branch principal do f
 
 Ou seja, o Pull Request de **FRONTEND** deverá ser criado a partir do fork de vocês desse repositório aqui, com destino a este repositório aqui.
 
-E portanto o Pull Request de **BACKEND** deverá ser criado a partir do fork de vocês do repositório base de BACKEND desse desafio, com destino ao [repositório base de BACKEND desse desafio](https://github.com/cubos-academy/back-integral-m05-desafio-t05).
+E portanto o Pull Request de **BACKEND** deverá ser criado a partir do fork de vocês do repositório base de BACKEND desse desafio, com destino ao [repositório base de BACKEND desse desafio].
 
