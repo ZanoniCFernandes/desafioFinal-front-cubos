@@ -1,0 +1,29 @@
+.erro-busca {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 3rem;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+.erro-busca img {
+  width: 40rem;
+}
+
+.erro-busca h1 {
+  font-weight: 600;
+  font-size: 2.8rem;
+
+  color: var(--salmao);
+
+  margin-bottom: 2.4rem;
+}
+
+.erro-busca h2 {
+  font-weight: 600;
+  font-size: 2.6rem;
+
+  color: var(--cinza);
+}

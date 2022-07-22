@@ -1,0 +1,79 @@
+.linha-cobrancas-detalhe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+
+  width: 100%;
+  height: 5rem;
+
+  border-top: 1px solid var(--cinza-claro3);
+}
+
+.linha-cobrancas-coluna1 {
+  flex: 1;
+}
+
+.linha-cobrancas-coluna2 {
+  width: 13rem;
+  flex: 1;
+}
+
+.linha-cobrancas-coluna3 {
+  width: 11rem;
+  flex: 1;
+}
+
+.linha-cobrancas-coluna4 {
+  width: 10rem;
+  flex: 1;
+}
+
+.linha-status {
+  padding: 0 0.8rem;
+  text-align: center;
+  font-weight: bold;
+
+  border-radius: 8px;
+}
+
+.Vencida {
+  background-color: var(--vermelho-claro2);
+  color: var(--vinho);
+}
+
+.Pendente {
+  background-color: var(--amarelo-claro);
+  color: var(--amarelo-normal);
+}
+
+.Paga {
+  background-color: var(--verde-claro);
+  color: var(--verde-agua);
+}
+
+.linha-cobrancas-coluna5 {
+  width: 20rem;
+  height: 2rem;
+  flex: 2;
+
+  overflow: hidden;
+}
+
+.linha-cobrancas-coluna6 {
+  width: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-right: 2rem;
+}
+
+.linha-cobrancas-coluna6 img,
+.linha-cobrancas-coluna5,
+.linha-cobrancas-coluna4,
+.linha-cobrancas-coluna3,
+.linha-cobrancas-coluna2,
+.linha-cobrancas-coluna1 {
+  cursor: pointer;
+}

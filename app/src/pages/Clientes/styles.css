@@ -1,0 +1,208 @@
+.container-clientes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100vw;
+
+  background-color: var(--cinza-claro);
+
+  position: relative;
+}
+
+.clientes-esquerda {
+  height: 100vh;
+  width: 7vw;
+}
+
+.clientes-direita {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  width: 93vw;
+
+  position: relative;
+}
+
+.cabecalho {
+  height: 13vh;
+  width: 93vw;
+}
+
+.clientes-direita-superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 1.9rem;
+
+  padding: 0 10rem;
+}
+
+.clientes-direita-superior-esquerda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.clientes-direita-superior-esquerda img {
+  width: 3.2rem;
+}
+
+.clientes-direita-superior-esquerda h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.6rem;
+  line-height: 3.3rem;
+}
+
+.clientes-direita-superior-direita {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.clientes-direita-superior-direita button {
+  all: unset;
+
+  width: 25rem;
+  height: 3.3rem;
+
+  background-color: var(--rosa);
+  color: var(--cinza-claro);
+
+  border-radius: 10px;
+
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.clientes-direita-superior-direita button:hover {
+  transform: scale(1.01);
+
+  background-color: var(--rosa-escuro);
+}
+
+.clientes-direita-superior-direita img {
+  cursor: pointer;
+}
+
+.clientes-direita-superior-direita img:hover {
+  transform: scale(1.01);
+}
+
+.clientes-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem 0.8rem;
+  gap: 6rem;
+
+  background: #ffffff;
+  border-radius: 10px;
+
+  box-shadow: 3px 5px 5px rgba(218, 1, 117, 0.05);
+}
+
+.clientes-input:focus {
+  border: 1px solid black;
+}
+
+.clientes-input input {
+  all: unset;
+}
+
+.clientes-direita-inferior {
+  padding: 0 10rem;
+  max-height: 70vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.tabela {
+  width: 100%;
+  max-height: 100%;
+  flex: 1;
+
+  padding: 1.2rem 2.3rem 2.3rem 2.3rem;
+
+  margin-top: 2.4rem;
+  margin-bottom: 4.5rem;
+
+  border-radius: 30px;
+
+  background-color: white;
+
+  font-family: "Nunito", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.tabela-linhas-container {
+  flex: 1;
+
+  overflow: auto;
+
+  font-size: 1.4rem;
+}
+
+.tabela-cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+
+  height: 5rem;
+
+  font-weight: bold;
+  margin-right: 1.2rem;
+}
+
+.tabela-cabecalho-coluna-1 {
+  width: 15rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  flex: 1;
+}
+
+.tabela-cabecalho-coluna-1 img:hover {
+  cursor: pointer;
+}
+
+.tabela-cabecalho-coluna-2 {
+  width: 12rem;
+  flex: 1;
+}
+
+.tabela-cabecalho-coluna-3 {
+  width: 15rem;
+  flex: 1;
+}
+
+.tabela-cabecalho-coluna-4 {
+  width: 12rem;
+  flex: 1;
+}
+
+.tabela-cabecalho-coluna-5 {
+  width: 11rem;
+}
+
+.tabela-cabecalho-coluna-6 {
+  width: 13rem;
+  flex: 1;
+  text-align: center;
+}

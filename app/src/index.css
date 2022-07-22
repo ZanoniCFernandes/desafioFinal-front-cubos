@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#root {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+:root {
+  --vinho: #971d1d;
+  --vinho2: #ae1100;
+  --vermelho: #e70000;
+  --vermelho-claro2: #ffefef;
+  --vermelho-claro: #f2d6d0;
+  --salmao: #f08889;
+  --rosa-escuro: #b30260;
+  --rosa: #da0175;
+  --azul-claro: #eef7f7;
+  --azul-medio: #c3d4fe;
+  --azul-escuro: #243f80;
+  --amarelo-claro: #fcf6dc;
+  --amarelo-medio: #f5d9b0;
+  --amarelo-normal: #c5a605;
+  --amarelo-escuro: #cc7800;
+  --cinza-claro: #f8f8f9;
+  --cinza-medio: #dedee9;
+  --cinza: #747488;
+  --cinza-claro2: #f0f0f5;
+  --cinza-claro3: #eff0f6;
+  --cinza-claro4: #d0d5dd;
+  --cinza-medio: #dedee9;
+  --cinza-medio2: #6e6e85;
+  --cinza-medio3: #c8c8d7;
+  --cinza-escuro: #3f3f55;
+  --verde-agua: #1fa7af;
+  --verde-normal: #0e8750;
+  --verde-leve: #acd9c5;
+  --verde-claro: #eef6f6;
+}
+
+.rosa {
+  color: var(--rosa);
+}
+
+.aviso {
+  width: 100%;
+  text-align: center;
+}
+
+.aviso span {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: var(--vermelho);
+
+  text-align: center;
+}
+
+body {
+  font-size: 1.6rem;
+  /* 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  font-family: "Nunito", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: var(--cinza-escuro);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif; */
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: var(--cinza-medio3) var(--cinza-claro2);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--cinza-claro2);
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--cinza-medio3);
+  border-radius: 10px;
+  border: none;
+}

@@ -1,0 +1,52 @@
+.container-feedback {
+  box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.2);
+
+  border-radius: 10px;
+
+  padding: 1.5rem;
+
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
+
+  width: 38.7rem;
+
+  z-index: 10;
+
+  font-family: "Nunito", sans-serif;
+  font-size: 1.4rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.atencao,
+.atencao img {
+  background-color: var(--amarelo-medio);
+  color: var(--amarelo-escuro);
+}
+
+.erro,
+.erro img {
+  background-color: var(--vermelho-claro);
+  color: var(--vinho2);
+}
+
+.sucesso,
+.sucesso img {
+  background-color: var(--azul-medio);
+  color: var(--azul-escuro);
+}
+
+.botao-fechar-feedback {
+  position: absolute;
+  top: 1.9rem;
+  right: 1.9rem;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.botao-fechar-feedback:hover {
+  cursor: pointer;
+}

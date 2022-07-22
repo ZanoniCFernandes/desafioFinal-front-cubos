@@ -1,0 +1,253 @@
+.container-home {
+  display: flex;
+
+  height: 100vh;
+  width: 100vw;
+
+  background-color: var(--cinza-claro);
+
+  position: relative;
+}
+
+.home-esquerda {
+  height: 100%;
+  width: 7%;
+}
+
+.home-direita {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  width: 93%;
+}
+
+.home-direita-superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 8rem;
+  padding-right: 10.8rem;
+
+  margin-top: 1.9rem;
+}
+
+.home-direita-detalhes {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.home-direita-detalhes span {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: var(--cinza);
+}
+
+.home-direita-medio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 8rem;
+  padding-right: 10.8rem;
+
+  margin-top: 2.4rem;
+}
+
+.home-direita-inferior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 8rem;
+  padding-right: 10.8rem;
+
+  margin-top: 3.2rem;
+}
+
+.resumo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+
+  padding-left: 4rem;
+
+  gap: 4rem;
+
+  height: 11rem;
+
+  border-radius: 30px;
+
+  position: relative;
+}
+
+.resumo h3 {
+  font-size: 1.8rem;
+}
+
+.resumo h2 {
+  margin-top: 1.1rem;
+  font-size: 2.4rem;
+}
+
+.resumo img {
+  position: absolute;
+}
+
+.card-cobrancas {
+  width: 50rem;
+}
+
+.card-clientes {
+  width: 75rem;
+}
+
+.informacao {
+  text-align: center;
+  margin: auto;
+  gap: 1.1rem;
+}
+
+.card {
+  border-radius: 30px;
+
+  background-color: #ffffff;
+
+  box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+}
+
+.card-superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 5.5rem;
+
+  font-family: "Montserrat", sans-serif;
+
+  padding: 1rem 4rem 1rem 5rem;
+
+  border-bottom: 1px solid #eff0f7;
+}
+
+.card-superior h3 {
+  font-size: 1.8rem;
+}
+
+.card-superior-esquerda {
+  display: flex;
+  align-items: center;
+
+  gap: 1.2rem;
+}
+
+.clientes .card-superior {
+  padding-left: 2rem;
+}
+
+.card-medio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 5.5rem;
+
+  padding: 1rem 2rem 1rem 2rem;
+
+  border-bottom: 1px solid #eff0f7;
+}
+
+.card-medio h4 {
+  width: 30%;
+  text-align: center;
+}
+
+.card-inferior {
+  display: flex;
+  flex-direction: column;
+}
+
+.entrada {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+
+  padding: 1rem 2rem 1rem 2rem;
+
+  border-bottom: 1px solid #eff0f7;
+}
+
+.entrada span {
+  width: 30%;
+  text-align: center;
+}
+
+.listar {
+  text-align: center;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.ver-todos {
+  all: unset;
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--rosa);
+  font-size: 1.8rem;
+}
+
+.contador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 5.2rem;
+  height: 3rem;
+
+  border-radius: 30px;
+}
+
+.contador h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.pago {
+  background-color: var(--azul-claro);
+}
+
+.pago h4 {
+  color: var(--verde-agua);
+}
+
+.vencido {
+  background-color: var(--vermelho-claro);
+}
+
+.vencido h4 {
+  color: var(--vinho);
+}
+
+.previsto {
+  background-color: var(--amarelo-claro);
+}
+
+.previsto h4 {
+  color: var(--amarelo-normal);
+}
+
+.sem-bold {
+  font-weight: 400;
+}

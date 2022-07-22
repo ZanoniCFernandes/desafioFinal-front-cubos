@@ -1,0 +1,196 @@
+.container-cobrancas {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100vw;
+
+  background-color: var(--cinza-claro);
+
+  position: relative;
+}
+
+.cobrancas-esquerda {
+  height: 100vh;
+  width: 7vw;
+}
+
+.cobrancas-direita {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  width: 93vw;
+
+  position: relative;
+}
+
+.cabecalho {
+  height: 13vh;
+  width: 93vw;
+}
+
+.cobrancas-direita-superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 1.9rem;
+
+  padding: 0 10rem;
+}
+
+.cobrancas-direita-superior-esquerda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.cobrancas-direita-superior-esquerda h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 33px;
+}
+
+.cobrancas-direita-superior-direita {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.cobrancas-direita-superior-direita img {
+  cursor: pointer;
+}
+
+.cobrancas-direita-superior-direita img:hover {
+  transform: scale(1.01);
+}
+
+.cobrancas-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem 0.8rem;
+  gap: 6rem;
+
+  background: #ffffff;
+  border-radius: 10px;
+
+  box-shadow: 3px 5px 5px rgba(218, 1, 117, 0.05);
+}
+
+.cobrancas-input:focus {
+  border: 1px solid black;
+}
+
+.cobrancas-input input {
+  all: unset;
+}
+
+.cobrancas-direita-inferior {
+  padding: 0 10rem;
+
+  max-height: 70vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.tabela-cobrancas {
+  width: 100%;
+  max-height: 100%;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 1.2rem 2.3rem 2.3rem 2.3rem;
+
+  margin-top: 2.4rem;
+  margin-bottom: 4.5rem;
+
+  border-radius: 30px;
+
+  background-color: white;
+
+  font-family: "Nunito", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.tabela-cobrancas-linhas-container {
+  flex: 1;
+
+  overflow: auto;
+
+  font-size: 1.4rem;
+}
+
+.tabela-cobrancas-cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+
+  height: 5rem;
+
+  font-weight: bold;
+
+  margin-right: 3.2rem;
+}
+
+.tabela-cobrancas-cabecalho-coluna-1 {
+  width: 15rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  flex: 1;
+}
+
+.tabela-cobrancas-cabecalho-coluna-1 img,
+.tabela-cobrancas-cabecalho-coluna-2 img {
+  cursor: pointer;
+}
+
+.tabela-cobrancas-cabecalho-coluna-2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  width: 8rem;
+  flex: 1;
+}
+
+.tabela-cobrancas-cabecalho-coluna-3 {
+  width: 11rem;
+  flex: 1;
+}
+
+.tabela-cobrancas-cabecalho-coluna-4 {
+  width: 13rem;
+  flex: 1;
+}
+
+.tabela-cobrancas-cabecalho-coluna-5 {
+  width: 8rem;
+  flex: 1;
+}
+
+.tabela-cobrancas-cabecalho-coluna-6 {
+  width: 20rem;
+  flex: 2;
+}
+
+.tabela-cobrancas-cabecalho-coluna-7 {
+  width: 7rem;
+}

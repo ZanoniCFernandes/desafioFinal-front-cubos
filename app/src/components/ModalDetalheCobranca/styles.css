@@ -1,0 +1,95 @@
+.container-detalhe-cobranca {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgba(145, 154, 150, 0.3);
+  backdrop-filter: blur(4px);
+
+  position: absolute;
+  z-index: 10;
+}
+
+.modal-detalhe-cobranca {
+  width: 60rem;
+  height: min-content;
+  max-height: 100vh;
+
+  padding: 4rem 5.6rem;
+
+  background-color: white;
+  border-radius: 30px;
+
+  position: relative;
+}
+
+.botao-fechar {
+  position: absolute;
+  top: 2.4rem;
+  right: 2.4rem;
+  cursor: pointer;
+}
+
+.modal-titulo {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  font-family: "Montserrat", sans-serif;
+
+  margin-bottom: 1.6rem;
+}
+
+.modal-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  font-family: "Nunito", sans-serif;
+}
+
+.info-detalhe-cobranca {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+
+  width: 100%;
+}
+
+.titulo-detalhe-cobranca {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.detalhe-dividido {
+  display: flex;
+  flex-direction: row;
+}
+
+.detalhe-status {
+  width: min-content;
+  padding: 0 0.8rem;
+  text-align: center;
+  font-weight: bold;
+
+  border-radius: 8px;
+}
+
+.Vencida {
+  background-color: var(--vermelho-claro2);
+  color: var(--vinho);
+}
+
+.Pendente {
+  background-color: var(--amarelo-claro);
+  color: var(--amarelo-normal);
+}
+
+.Paga {
+  background-color: var(--verde-claro);
+  color: var(--verde-agua);
+}

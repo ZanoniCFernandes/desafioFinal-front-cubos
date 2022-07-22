@@ -1,0 +1,222 @@
+.container-detalhe {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100vw;
+
+  background-color: var(--cinza-claro);
+
+  position: relative;
+}
+
+.detalhe-esquerda {
+  height: 100vh;
+  width: 7vw;
+}
+
+.detalhe-direita {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  width: 93vw;
+
+  position: relative;
+}
+
+.cabecalho {
+  height: 13vh;
+  width: 93vw;
+}
+
+.detalhe-direita-superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 1.9rem;
+
+  padding: 0 10rem;
+}
+
+.detalhe-direita-superior-esquerda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.detalhe-direita-superior-esquerda h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 33px;
+}
+
+.detalhe-direita-superior-direita {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.botao {
+  all: unset;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 25rem;
+  height: 3.3rem;
+
+  border-radius: 10px;
+
+  font-family: "Nunito", sans-serif;
+
+  cursor: pointer;
+}
+
+.editar-cliente {
+  background-color: var(--cinza-claro);
+  color: var(--verde-normal);
+  border: 1px solid var(--cinza-medio);
+}
+
+.editar-cliente:hover {
+  background-color: var(--cinza-medio);
+  transform: scale(1.01);
+}
+
+.adicionar-cobranca {
+  background-color: var(--rosa);
+  color: var(--cinza-claro);
+
+  border-radius: 10px;
+  border: none;
+}
+
+.adicionar-cobranca:hover {
+  background-color: var(--rosa-escuro);
+  transform: scale(1.01);
+}
+
+.detalhe-direita-inferior {
+  padding: 0 10rem;
+  overflow: auto;
+}
+
+.dados-cliente,
+.cobrancas-cliente {
+  width: 100%;
+
+  background: white;
+  border-radius: 30px;
+
+  padding: 2.4rem 2rem;
+
+  margin: 2.4rem 0;
+
+  font-family: "Nunito", sans-serif;
+}
+
+.dados-cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dados-cabecalho h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.detalhes-linha {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detalhes-linha h4 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0.8rem;
+}
+
+.linha-um {
+  margin-top: 1.8rem;
+  margin-bottom: 5.5rem;
+  padding-right: 45%;
+}
+.cobrancas-cliente {
+  height: 35.1rem;
+}
+
+.cobrancas-tabela {
+  width: 100%;
+  margin-top: 1.2rem;
+
+  font-family: "Nunito", sans-serif;
+}
+
+.cobrancas-linhas-container {
+  height: 20.1rem;
+  overflow: auto;
+
+  font-size: 1.4rem;
+}
+
+.cobrancas-cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+
+  height: 5rem;
+
+  font-weight: bold;
+
+  margin-right: 3.2rem;
+}
+
+.cobrancas-cabecalho-coluna-1,
+.cobrancas-cabecalho-coluna-2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cobrancas-cabecalho-coluna-1 img:hover,
+.cobrancas-cabecalho-coluna-2 img:hover {
+  cursor: pointer;
+}
+
+.cobrancas-cabecalho-coluna-1 {
+  width: 8rem;
+  flex: 1;
+}
+
+.cobrancas-cabecalho-coluna-2 {
+  width: 13rem;
+  flex: 1;
+}
+
+.cobrancas-cabecalho-coluna-3 {
+  width: 11rem;
+  flex: 1;
+}
+
+.cobrancas-cabecalho-coluna-4 {
+  width: 8rem;
+  flex: 1;
+}
+
+.cobrancas-cabecalho-coluna-5 {
+  width: 20rem;
+  flex: 2;
+}
+
+.cobrancas-cabecalho-coluna-6 {
+  width: 7rem;
+}
